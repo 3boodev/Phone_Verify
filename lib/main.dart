@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 void main()async {
   runApp(MultiProvider(
     providers: [ChangeNotifierProvider<PhoneData>(create: (_) => PhoneData())],
-    child: await MyApp(),
+    child: const MyApp(),
   ));
 }
 class MyApp extends StatelessWidget {
