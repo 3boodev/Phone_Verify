@@ -34,3 +34,4 @@ class VerifyModel {
     carrier = json['carrier'];
     lineType = json['line_type'];
   }
+}
